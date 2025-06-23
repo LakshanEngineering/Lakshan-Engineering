@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="engineering, lathe work, milling, welding, cutter grinding, hydraulic repairs" />
+  <meta name="description" content="Lakshan Engineering offers expert services in lathe work, milling, welding, cutter grinding, and hydraulic hose repairs." />
+  <meta name="author" content="Lakshan Engineering" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+  <title>LAKSHAN ENGINEERING</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <!-- Owl Carousel CSS -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <!-- Font Awesome CSS -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <style>
+    /* Import Google Fonts */
+     @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Poppins:wght@400;600;700&display=swap");
+
+     /* Global Styles */
+     * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+     }
+
+     body {
+       font-family: 'Poppins', sans-serif;
+       color: #0c0c0c;
+       background-color: #f5f6fa;
+       overflow-x: hidden;
+       line-height: 1.6;
+     }
+
+     h1, h2, h3, h4, h5 {
+       font-family: 'Montserrat', sans-serif;
+       font-weight: 700;
+
+
+     }
+
+     h6{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+    }
+
+     a, a:hover, a:focus {
+       text-decoration: none;
+       transition: all 0.3s ease;
+     }
+
+     /* Utility Classes */
+     .layout_padding { padding: 90px 0; }
+     .layout_padding2 { padding: 75px 0; }
+     .layout_padding2-top { padding-top: 75px; }
+     .layout_padding2-bottom { padding-bottom: 75px; }
+     .layout_padding-top { padding-top: 90px; }
+     .layout_padding-bottom { padding-bottom: 90px; }
+
+     .heading_container {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       margin-bottom: 30px;
+     }
+
+     .heading_container h2 {
+       position: relative;
+       font-weight: bold;
+       font-size: 2.5rem;
+       color: #ff5722;
+     }
+
+     .heading_container.heading_center {
+       align-items: center;
+       text-align: center;
+     }
+
+     /* Buttons */
+     .btn, .btn:focus {
+       outline: none !important;
+       box-shadow: none;
+       border-radius: 50px;
+       padding: 12px 30px;
+       font-weight: 600;
+       background: linear-gradient(45deg, #ff5722, #ff8a65);
+       color: #ffffff;
+       border: 1px solid transparent;
+       transition: all 0.3s ease;
+     }
+
+     .btn:hover {
+       background: transparent;
+       color: #ff5722;
+       border-color: #ff5722;
+       transform: translateY(-2px);
+     }
+
+     /* Header Section */
+     .header_section {
+       background-color: #ffffff;
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+       position: sticky;
+       top: 0;
+       z-index: 1000;
+     }
+
+     .header_section .nav_container {
+       max-width: 1200px;
+       margin: 0 auto;
+     }
+
+    .navbar-brand {
+       font-family: 'Montserrat', sans-serif;
+       color: #303841;
+       font-weight: bold;
+       font-size: 1.8rem;
+     }
+
+     .navbar-brand span {
+       color: #ff5722;
+     }
+
+     .custom_nav-container .contact_nav {
+       display: flex;
+       justify-content: flex-end;
+       flex: 1;
+     }
+
+     .custom_nav-container .contact_nav a {
+       color: #303841;
+       font-size: 0.9rem;
+       margin-left: 20px;
+       display: flex;
+       align-items: center;
+     }
+
+     .custom_nav-container .contact_nav a i {
+       margin-right: 5px;
+       color: #ff5722;
+     }
+
+    /* .custom_nav2 {
+       background: linear-gradient(45deg, #ff5722, #ff8a65);
+       clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+       padding: 10px 0;
+     }*/
+
+     .custom_nav2 .navbar-nav .nav-item .nav-link {
+       color: #ffffff;
+       font-weight: 600;
+       padding: 10px 20px;
+       position: relative;
+     }
+
+     .custom_nav2 .navbar-nav .nav-item .nav-link:hover::after {
+       content: '';
+       position: absolute;
+       width: 50%;
+       height: 2px;
+       background: #ffffff;
+       bottom: 5px;
+       left: 25%;
+       transition: all 0.3s ease;
+     }
+
+     .custom_nav-container .navbar-toggler {
+       border: none;
+       outline: none;
+     }
+
+     .custom_nav-container .navbar-toggler span {
+       display: block;
+       width: 30px;
+       height: 3px;
+       background-color: #ffffff;
+       margin: 6px 0;
+       border-radius: 3px;
+       transition: all 0.3s ease;
+     }
+
+     .custom_nav-container .navbar-toggler span::before,
+     .custom_nav-container .navbar-toggler span::after {
+       content: '';
+       position: absolute;
+       width: 100%;
+       height: 100%;
+       background-color: #ffffff;
+       border-radius: 3px;
+     }
+
+     .custom_nav-container .navbar-toggler span::before { top: -9px; }
+     .custom_nav-container .navbar-toggler span::after { top: 9px; }
+
+     .custom_nav-container .navbar-toggler[aria-expanded="true"] span {
+       transform: rotate(45deg);
+     }
+
+     .custom_nav-container .navbar-toggler[aria-expanded="true"] span::before {
+       transform: rotate(90deg);
+       top: 0;
+     }
+
+     .custom_nav-container .navbar-toggler[aria-expanded="true"] span::after {
+       transform: rotate(90deg);
+       top: 0;
+     }
+
+      /* Slider Section */
+    .slider_section {
+      min-height: 100vh;
+      background: #303841;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .slider_section::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-image: url('css/BG.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      opacity: 0.3;
+      z-index: 1;
+    }
+
+    .slider_section > * {
+      position: relative;
+      z-index: 2;
+    }
+
+    .slider_section .slider_container {
+      margin: auto 0;
+      padding: 75px 0;
+    }
+
+
+
+    .slider_section .detail-box p {
+      color: #ffffff;
+      font-size: 1.1rem;
+      margin: 20px 0;
+    }
+
+    .slider_section .detail-box .btn-box {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px;
+    }
+
+    .slider_section .detail-box .btn-box a {
+      margin-right: 15px;
+    }
+
+    .slider_section .img-box img {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .slider_section .carousel-indicators li {
+      width: 12px;
+      height: 12px;
+      background-color: transparent;
+      border: 2px solid #ff5722;
+      border-radius: 50%;
+      transition: all 0.3s ease;
+    }
+
+    .slider_section .carousel-indicators li.active {
+      width: 16px;
+      height: 16px;
+      border: 3px solid #ff5722;
+      background-color: #ff5722;
+    }
+
+
+     Service Section
+ .service_section {
+  position: relative;
+   background: linear-gradient(180deg, #303841, #455a64);
+   color: #ffffff;
+   width: 100%;
+   padding: 60px 0 60px;
+   z-index: 1;
+   min-height: 100vh;
+   background: #303841;
+   display: flex;
+   flex-direction: column;
+  position: relative;
+   overflow: hidden;
+ }
+
+ .service_section::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   padding: 25px;
+   background-image: url('css/contact-img.jpg');
+   background-repeat: repeat;
+   background-position: center;
+   background-size: cover;
+   opacity: 0.6;
+   z-index: -5;
+
+  }
+
+
+     .service_section .box {
+       background: #ffffff;
+       color: #000000;
+       border-radius: 10px;
+       overflow: hidden;
+       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+       transition: transform 0.3s ease, box-shadow 0.3s ease;
+       margin-top: 30px;
+     }
+
+     .service_section .box:hover {
+       transform: translateY(-10px);
+       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+     }
+
+     .service_section .box .img-box img {
+       width: 100%;
+       height: 200px;
+       object-fit: cover;
+     }
+
+     .service_section .box .detail-box {
+       padding: 20px;
+     }
+
+     .service_section .box .detail-box h5 {
+       font-size: 1.3rem;
+       margin-bottom: 10px;
+     }
+
+     .service_section .box .detail-box p {
+       color: #555;
+       font-size: 0.95rem;
+       margin-bottom: 15px;
+     }
+
+     .service_section .box .detail-box a {
+       color: #ff5722;
+       font-weight: 600;
+       display: inline-flex;
+       align-items: center;
+     }
+
+     .service_section .box .detail-box a i {
+       margin-left: 5px;
+     }
+
+     .service_section .btn-box {
+       text-align: center;
+       margin-top: 100px;
+     }
+
+  /* info section */
+.info_section {
+  background: #bababa;
+  color: #001A1A;
+  padding: 20px 0 60px 0;
+}
+
+.info_section .row {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.info_section .info_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info_section .info_contact .link-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #001A1A;
+  margin-bottom: 0px;
+}
+
+.info_section .info_contact .link-box i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #001A1A;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-right: 10px;
+}
+
+.info_section .info_contact .link-box:hover i {
+  color: #ff5722;
+}
+
+.info_section .social_container {
+  margin-top: 15px;
+}
+
+.info_section .social-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 15px;
+}
+
+.info_section .social-box a {
+  margin: 0 5px;
+  width: 45px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.info_section .social-box a:hover {
+  color: #ff5722;
+}
+
+
+     /* Footer Section */
+     .footer_section {
+       background: #ffffff;
+       padding: 20px 0;
+       text-align: center;
+       box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+     }
+
+     .footer_section p {
+       color: #252525;
+       margin: 0;
+       font-size: 0.9rem;
+     }
+
+     .footer_section p a {
+       color: #ff5722;
+       font-weight: 600;
+     }
+
+     /* Animations */
+     @keyframes fadeInUp {
+       from { opacity: 0; transform: translateY(20px); }
+       to { opacity: 1; transform: translateY(0); }
+     }
+
+     /* Responsive Design */
+     @media (max-width: 768px) {
+       .heading_container h2 { font-size: 2rem; }
+       .custom_nav2 .navbar-nav .nav-item .nav-link { padding: 10px; }
+       .service_section .box { margin-bottom: 20px; }
+       .info_section .info_contact { flex-direction: column; align-items: flex-start; }
+     }
+
+     @media (max-width: 576px) {
+       .heading_container h2 { font-size: 1.8rem; }
+       .btn { padding: 10px 20px; }
+       .navbar-brand { font-size: 1.5rem; }
+     }
+  </style>
+</head>
+<body>
+<div class="hero_area">
+  <!-- Header Section -->
+  <header class="header_section ip_header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container px-0">
+        <a class="navbar-brand" href="index.html">
+          <span>LAKSHAN ENGINEERING</span>
+        </a>
+        <div class="contact_nav">
+          <a class="nav-link" href="contact.html">
+            <i class="fa fa-map-marker" aria-hidden="true"></i>
+            <span>Location</span>
+          </a>
+          <a class="nav-link" href="">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            <span>Call: +94 711331082</span>
+          </a>
+          <a class="nav-link" href="mailto:demo@gmail.com">
+            <i class="fa fa-envelope" aria-hidden="true"></i>
+            <span>lakshanengineering296@gmail.com</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Navigation Section -->
+  <div class="custom_nav2">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg custom_nav-container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="s-1"></span>
+          <span class="s-2"></span>
+          <span class="s-3"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="service.html">Services</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 ml-0 ml-lg-4 mb-3 mb-lg-0">
+
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</div>
+
+<!-- Service Section -->
+<section class="service_section layout_padding">
+  <div class="container">
+    <div class="heading_container heading_center">
+      <h2>Services We Offer</h2>
+      <p class="col-lg-8 px-0">Lakshan Engineering provides expert Lathe, Milling, and Welding work for precise and durable metal fabrication. Our Cutter Grinding restores tools to peak sharpness, while Hydraulic and Power Steering Hose Repairs ensure reliable system performance.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/Lathe%20Work.jpeg" alt="Lathe Work" />
+          </div>
+          <div class="detail-box">
+            <h5>Lathe Work</h5>
+            <p>We provide precision lathe machining services for turning, facing, threading, and custom part fabrication to meet your exact specifications.</p>
+           </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/Milling%20Work.jpg" alt="Milling Work" />
+          </div>
+          <div class="detail-box">
+            <h5>Milling Work</h5>
+            <p>Our milling services offer high-accuracy metal shaping and surface finishing for components of all sizes using advanced milling machines.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/Welding%20work.jpg" alt="Welding Work" />
+          </div>
+          <div class="detail-box">
+            <h5>Welding Work</h5>
+            <p>We specialize in high-quality welding for repairs and fabrication, including MIG, TIG, and arc welding on a variety of metal types.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/Cutter%20grinding.jpeg" alt="Cutter Grinding" />
+          </div>
+          <div class="detail-box">
+            <h5>Cutter Grinding</h5>
+            <p>Restore sharpness and performance with our professional blade grinding service, ensuring clean cuts and extended tool life.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4 mx-auto">
+        <div class="box">
+          <div class="img-box">
+            <img src="images/Hy.jpg" alt="Hydraulic Hose Repair" />
+          </div>
+          <div class="detail-box">
+            <h5>Hydraulic Hose & Power Steering Hose Repair</h5>
+            <p>We offer fast and reliable repairs and replacements for hydraulic and power steering hoses to ensure your systems run smoothly and safely.</p>
+            </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Info Section -->
+<section class="info_section">
+  <div class="info_container">
+    <div class="container">
+      <div class="info_contact">
+        <a href="#" class="link-box">
+          <i class="fa fa-map-marker" aria-hidden="true"></i>
+          <span>No. 296,<br>Pahala Bomiriya,<br>Kaduwela.<br>Sri Lanka.</span>
+        </a>
+        <a href="#" class="link-box">
+          <i class="fa fa-phone" aria-hidden="true"></i>
+          <span>Call +94 711331082</span>
+        </a>
+        <a href="mailto:demo@gmail.com" class="link-box">
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+          <span>lakshanengineering296@gmail.com</span>
+        </a>
+      </div>
+      <div class="social_container">
+        <div class="heading_container heading_center">
+          <h6>Follow Us</h6>
+
+        </div>
+        <div class="social-box">
+          <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+          <a href=""><i class="fa fa-youtube" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer Section -->
+<footer class="footer_section">
+  <div class="container">
+    <p>© <span id="displayYear"></span> All Rights Reserved  <a href="https://html.design/"></a></p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.15.0/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js"></script>
+<script src="js/custom.js"></script>
+<script>
+  // Set current year in footer
+  document.getElementById('displayYear').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
